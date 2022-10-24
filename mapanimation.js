@@ -23,7 +23,6 @@ let map = new mapboxgl.Map({
   style: 'mapbox://styles/mapbox/streets-v11',
   center: [-71.104081, 42.365554],
   zoom: 14,
-  counter = 0;
 });
 
 // TODO: add a marker to the map at the first coordinates in the array busStops. The marker variable should be named "marker"
